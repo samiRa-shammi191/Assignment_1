@@ -21,10 +21,10 @@
 
         if ($direction == "celsius_to_fahrenheit") {
             $result = ($temperature * 9/5) + 32;
-            echo "<p>{$temperature} Celsius is equal to {$result} Fahrenheit.</p>";
+            echo "The converted temperature is: " . $result;
         } elseif ($direction == "fahrenheit_to_celsius") {
             $result = ($temperature - 32) * 5/9;
-            echo "<p>{$temperature} Fahrenheit is equal to {$result} Celsius.</p>";
+            echo "The converted temperature is: " . $result;
         }
     }
     ?>

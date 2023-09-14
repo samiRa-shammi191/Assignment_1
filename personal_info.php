@@ -41,6 +41,7 @@ $age = "";
 $country = "";
 $introduction = "";
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST["name"];
   $age = $_POST["age"];
